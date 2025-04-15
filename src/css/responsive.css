@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.container {
+  background-color: #1F1E1E;
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 52.083vw;
+  height: 59.444vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-content {
+  padding-top: 9.907vh;
+  padding-bottom: 10vh;
+  width: 18.438vw;
+  height: 24.444vh;
+  font-weight: 700;
+  display: flex;
+  padding-left: 4.688vw;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-container {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.box img {
+  width: 20.573vw;
+  padding-right: 3.056vh;
+  height: 52.407vh;
+}
+
+h1, p {
+  margin: 0;
+}
+
+.font-20px {
+  font-size: 1.042vw;
+}
+
+.font-42px {
+  font-size: 2.188vw;
+}
+
+.font-18px {
+  font-size: 0.938vw;
+}
+
+.gray {
+  color: #86868B;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.description {
+  padding-top: 2.037vh;
+}
+
+.judul {
+  padding-top: 1.389vh;
+}
+
+@media (max-width: 1280px) {
+    .box {
+        width: 78.125vw;
+        height: 89.167vh;
+    }
+
+    .text-content {
+        padding-top: 14.861vh;
+        padding-bottom: 15vh;
+    }
+
+    .box img {
+        width: 30.859vw;
+        height: 78.611vh;
+    }
+
+    .font-18px {
+        font-size: 1.406vw;
+    }
+
+    .font-20px {
+        font-size: 1.563vw;
+    }
+
+    .font-42px {
+        font-size: 3.281vw;
+    }
+
+    .description {
+        width: 27.656vw;
+    }
+
+    .judul {
+        width: 26.484vw;
+    }
+}
