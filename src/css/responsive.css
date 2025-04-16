@@ -17,7 +17,7 @@
 
 .box {
   width: 52.083vw;
-  height: 59.444vh;
+  height: 33.438vw;
   background-color: black;
   display: flex;
   justify-content: space-between;
@@ -25,8 +25,8 @@
 }
 
 .text-content {
-  padding-top: 9.907vh;
-  padding-bottom: 10vh;
+  padding-top: 5.573vw;
+  padding-bottom: 5.625vw;
   width: 18.438vw;
   height: 24.444vh;
   font-weight: 700;
@@ -45,7 +45,7 @@
 .box img {
   width: 20.573vw;
   padding-right: 3.056vh;
-  height: 52.407vh;
+  height: 29.479vw;
 }
 
 h1, p {
@@ -73,46 +73,9 @@ h1, p {
 }
 
 .description {
-  padding-top: 2.037vh;
+  padding-top: 1.146vw;
 }
 
 .judul {
-  padding-top: 1.389vh;
-}
-
-@media (max-width: 1280px) {
-    .box {
-        width: 78.125vw;
-        height: 89.167vh;
-    }
-
-    .text-content {
-        padding-top: 14.861vh;
-        padding-bottom: 15vh;
-    }
-
-    .box img {
-        width: 30.859vw;
-        height: 78.611vh;
-    }
-
-    .font-18px {
-        font-size: 1.406vw;
-    }
-
-    .font-20px {
-        font-size: 1.563vw;
-    }
-
-    .font-42px {
-        font-size: 3.281vw;
-    }
-
-    .description {
-        width: 27.656vw;
-    }
-
-    .judul {
-        width: 26.484vw;
-    }
+  padding-top: 0.781vw;
 }
