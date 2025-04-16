@@ -24,7 +24,7 @@
   align-items: center;
 }
 
-.text-content {
+.pc .text-content {
   padding-top: 5.573vw;
   padding-bottom: 5.625vw;
   width: 18.438vw;
@@ -78,4 +78,72 @@ h1, p {
 
 .judul {
   padding-top: 0.781vw;
+}
+
+.mb {
+  width: 83.333vw;
+  height: 152.778vw;
+}
+
+.mb {
+  display: none;
+}
+
+.mb img {
+  width: 54.861vw;
+  height: 78.611vw;
+}
+
+.mb .image-container {
+  display: flex;
+  height: auto;
+  padding-left: 20.972vw;
+}
+
+.mb .text-content {
+  width: 64.861vw;
+  padding-top: 5.833vw;
+}
+
+.mb .description {
+  padding-top: 5.833vw;
+}
+
+.judul-mobile {
+  width: 47.083vw;
+  padding-top: 2.361vw;
+}
+
+.mb .font-20px {
+  font-size: 2.778vw;
+}
+
+.mb .font-42px {
+  font-size: 5.833vw;
+}
+
+.mb .font-18px {
+  font-size: 2.5vw;
+}
+
+@media (max-width: 721px) {
+  .pc {
+    display: none;
+  }
+
+  .mb {
+    display: block;
+  }
+
+  .mb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .judul-mobile {
+    width: 47.083vw;
+    height: 14.167vw;
+  }
+  
 }
